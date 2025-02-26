@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+
+    <!-- First Section: Your Cart -->
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Left-handed spoon"/>
+        <p>Left-handed spoon</p>
+    </section>
+
+    <!-- Second Section: Payment Information -->
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <!-- Cardholder Name -->
+            <label for="card-name">Cardholder Name</label>
+            <input id="card-name" name="card-name" type="text" required aria-required="true"/>
+
+            <br/>
+
+            <!-- Card Number -->
+            <label for="card-number">Card Number</label>
+            <input id="card-number" name="card-number" type="text" required aria-required="true"/>
+
+            <br/>
+
+            <!-- Expiry Date -->
+            <label for="expiry-date">Expiry Date</label>
+            <input id="expiry-date" name="expiry-date" type="text" placeholder="MM/YY"/>
+
+            <br/>
+
+            <!-- CVV -->
+            <label for="card-cvv">CVV</label>
+            <input id="card-cvv" name="card-cvv" type="number"/>
+
+            <br/>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</body>
+
+</html>
